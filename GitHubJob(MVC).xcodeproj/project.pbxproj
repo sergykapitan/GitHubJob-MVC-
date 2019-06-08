@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		88E4374622AB768F00C6741F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4374522AB768F00C6741F /* AppDelegate.swift */; };
-		88E4374822AB768F00C6741F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4374722AB768F00C6741F /* ViewController.swift */; };
+		88E4374822AB768F00C6741F /* SearchPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4374722AB768F00C6741F /* SearchPageViewController.swift */; };
 		88E4374B22AB768F00C6741F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E4374922AB768F00C6741F /* Main.storyboard */; };
 		88E4374D22AB769C00C6741F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E4374C22AB769C00C6741F /* Assets.xcassets */; };
 		88E4375022AB769C00C6741F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E4374E22AB769C00C6741F /* LaunchScreen.storyboard */; };
+		88E4375822AB779200C6741F /* GitHubJobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4375722AB779200C6741F /* GitHubJobTableViewController.swift */; };
+		88E4376122AB789200C6741F /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4376022AB789200C6741F /* JobCell.swift */; };
+		88E4376322AB78AA00C6741F /* JobCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E4376222AB78AA00C6741F /* JobCell.xib */; };
+		88E4376522AB851D00C6741F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4376422AB851D00C6741F /* NetworkService.swift */; };
+		88E4376722AB857400C6741F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4376622AB857400C6741F /* NetworkError.swift */; };
+		88E4376A22AB861600C6741F /* GitHubNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4376922AB861600C6741F /* GitHubNetwork.swift */; };
+		88E4376D22AB869000C6741F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4376C22AB869000C6741F /* Item.swift */; };
+		88E4376F22AB86C700C6741F /* GetGitHubResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4376E22AB86C700C6741F /* GetGitHubResponse.swift */; };
+		88E4377522ABA2E400C6741F /* DetailsJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4377322ABA2E400C6741F /* DetailsJobViewController.swift */; };
+		88E4377622ABA2E400C6741F /* DetailsJobViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E4377422ABA2E400C6741F /* DetailsJobViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88E4374222AB768F00C6741F /* GitHubJob(MVC).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHubJob(MVC).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E4374522AB768F00C6741F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88E4374722AB768F00C6741F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88E4374722AB768F00C6741F /* SearchPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageViewController.swift; sourceTree = "<group>"; };
 		88E4374A22AB768F00C6741F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88E4374C22AB769C00C6741F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88E4374F22AB769C00C6741F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88E4375122AB769C00C6741F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E4375722AB779200C6741F /* GitHubJobTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubJobTableViewController.swift; sourceTree = "<group>"; };
+		88E4376022AB789200C6741F /* JobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
+		88E4376222AB78AA00C6741F /* JobCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobCell.xib; sourceTree = "<group>"; };
+		88E4376422AB851D00C6741F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		88E4376622AB857400C6741F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		88E4376922AB861600C6741F /* GitHubNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubNetwork.swift; sourceTree = "<group>"; };
+		88E4376C22AB869000C6741F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		88E4376E22AB86C700C6741F /* GetGitHubResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGitHubResponse.swift; sourceTree = "<group>"; };
+		88E4377322ABA2E400C6741F /* DetailsJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsJobViewController.swift; sourceTree = "<group>"; };
+		88E4377422ABA2E400C6741F /* DetailsJobViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsJobViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,88 @@
 		88E4374422AB768F00C6741F /* GitHubJob(MVC) */ = {
 			isa = PBXGroup;
 			children = (
-				88E4374522AB768F00C6741F /* AppDelegate.swift */,
-				88E4374722AB768F00C6741F /* ViewController.swift */,
-				88E4374922AB768F00C6741F /* Main.storyboard */,
-				88E4374C22AB769C00C6741F /* Assets.xcassets */,
-				88E4374E22AB769C00C6741F /* LaunchScreen.storyboard */,
-				88E4375122AB769C00C6741F /* Info.plist */,
+				88E4375C22AB780E00C6741F /* Application */,
+				88E4375E22AB784100C6741F /* View */,
+				88E4376B22AB867C00C6741F /* Model */,
+				88E4375D22AB782600C6741F /* View Controller */,
+				88E4376822AB85A900C6741F /* GitHubNetwork */,
+				88E4375B22AB77EB00C6741F /* Resours */,
 			);
 			path = "GitHubJob(MVC)";
+			sourceTree = "<group>";
+		};
+		88E4375B22AB77EB00C6741F /* Resours */ = {
+			isa = PBXGroup;
+			children = (
+				88E4374C22AB769C00C6741F /* Assets.xcassets */,
+			);
+			path = Resours;
+			sourceTree = "<group>";
+		};
+		88E4375C22AB780E00C6741F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				88E4374522AB768F00C6741F /* AppDelegate.swift */,
+				88E4375122AB769C00C6741F /* Info.plist */,
+				88E4376422AB851D00C6741F /* NetworkService.swift */,
+				88E4376622AB857400C6741F /* NetworkError.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		88E4375D22AB782600C6741F /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88E4374722AB768F00C6741F /* SearchPageViewController.swift */,
+				88E4375722AB779200C6741F /* GitHubJobTableViewController.swift */,
+				88E4377322ABA2E400C6741F /* DetailsJobViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		88E4375E22AB784100C6741F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88E4377022ABA25700C6741F /* DetailsJob */,
+				88E4375F22AB786800C6741F /* Cell */,
+				88E4374922AB768F00C6741F /* Main.storyboard */,
+				88E4374E22AB769C00C6741F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88E4375F22AB786800C6741F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				88E4376022AB789200C6741F /* JobCell.swift */,
+				88E4376222AB78AA00C6741F /* JobCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		88E4376822AB85A900C6741F /* GitHubNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				88E4376922AB861600C6741F /* GitHubNetwork.swift */,
+			);
+			path = GitHubNetwork;
+			sourceTree = "<group>";
+		};
+		88E4376B22AB867C00C6741F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88E4376C22AB869000C6741F /* Item.swift */,
+				88E4376E22AB86C700C6741F /* GetGitHubResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88E4377022ABA25700C6741F /* DetailsJob */ = {
+			isa = PBXGroup;
+			children = (
+				88E4377422ABA2E400C6741F /* DetailsJobViewController.xib */,
+			);
+			path = DetailsJob;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +216,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E4377622ABA2E400C6741F /* DetailsJobViewController.xib in Resources */,
 				88E4375022AB769C00C6741F /* LaunchScreen.storyboard in Resources */,
 				88E4374D22AB769C00C6741F /* Assets.xcassets in Resources */,
 				88E4374B22AB768F00C6741F /* Main.storyboard in Resources */,
+				88E4376322AB78AA00C6741F /* JobCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88E4374822AB768F00C6741F /* ViewController.swift in Sources */,
+				88E4376722AB857400C6741F /* NetworkError.swift in Sources */,
+				88E4376D22AB869000C6741F /* Item.swift in Sources */,
+				88E4376F22AB86C700C6741F /* GetGitHubResponse.swift in Sources */,
+				88E4377522ABA2E400C6741F /* DetailsJobViewController.swift in Sources */,
+				88E4376522AB851D00C6741F /* NetworkService.swift in Sources */,
+				88E4376A22AB861600C6741F /* GitHubNetwork.swift in Sources */,
+				88E4376122AB789200C6741F /* JobCell.swift in Sources */,
+				88E4374822AB768F00C6741F /* SearchPageViewController.swift in Sources */,
+				88E4375822AB779200C6741F /* GitHubJobTableViewController.swift in Sources */,
 				88E4374622AB768F00C6741F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48BAMVNW77;
-				INFOPLIST_FILE = "GitHubJob(MVC)/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GitHubJob(MVC)/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48BAMVNW77;
-				INFOPLIST_FILE = "GitHubJob(MVC)/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GitHubJob(MVC)/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
