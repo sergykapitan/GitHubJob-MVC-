@@ -106,6 +106,7 @@
 		88E4375D22AB782600C6741F /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				88E4376022AB789200C6741F /* JobCell.swift */,
 				88E4374722AB768F00C6741F /* SearchPageViewController.swift */,
 				88E4375722AB779200C6741F /* GitHubJobTableViewController.swift */,
 				88E4377322ABA2E400C6741F /* DetailsJobViewController.swift */,
@@ -127,7 +128,6 @@
 		88E4375F22AB786800C6741F /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				88E4376022AB789200C6741F /* JobCell.swift */,
 				88E4376222AB78AA00C6741F /* JobCell.xib */,
 			);
 			path = Cell;
